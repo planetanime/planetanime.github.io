@@ -66,3 +66,6 @@ main{
 .content{
     color: #ffff;
 }
+main div span a:hover{
+    background-color: #292929;
+}
