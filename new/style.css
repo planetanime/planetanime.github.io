@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+::selection{
+  background: #292929;
+  text-shadow: none;
+}
+body{
+    background-color: #121212;
+}
+header{
+    background-color: #1d1d1d;
+    text-align: center;
+    padding: 20px;
+}
+header span{
+    font-family: JetbrainsMono Nerd Font;
+    color: white;
+    font-weight: 200;
+}
+header span:hover{
+    color: pink;
+    font-weight: bold;
+}
+footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #1d1d1d;
+    padding: 10px;
+    right: 0;
+}
+.discord{
+    text-align: right;
+}
+a{
+    color: #ffff;
+    text-decoration: none;
+}
