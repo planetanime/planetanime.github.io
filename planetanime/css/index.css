@@ -1,14 +1,15 @@
-body{
+body {
     background-color: #121212;
     margin: 0;
     font-family: JetBrainsMono Nerd Font;
 }
-::selection{
-  background: #292929;
-  text-shadow: none;
+
+::selection {
+    background: #292929;
+    text-shadow: none;
 }
 
-header{
+header {
     color: #0c0317;
     margin: 0;
     box-sizing: border-box;
@@ -21,11 +22,13 @@ header{
     align-items: center;
     display: flex;
 }
-a{
+
+a {
     color: #ffff;
     text-decoration: none;
 }
-footer{
+
+footer {
     bottom: 0;
     position: fixed;
     width: 100%;
@@ -33,20 +36,25 @@ footer{
     padding: 10px;
     right: 0;
 }
-.discord{
+
+.discord {
     text-align: right;
 }
-header img{
+
+header img {
     border-radius: 5px;
 }
-.planetani{
+
+.planetani {
     padding-left: 10px;
 }
-main{
+
+main {
     margin: 10px;
     display: flex;
 }
-main div{
+
+main div {
     background-color: #1d1d1d;
     margin: 10px;
     padding: 10px;
@@ -54,21 +62,26 @@ main div{
     width: 500px;
     height: 760px;
 }
-main{
+
+main {
     text-align: center;
 }
-.sub{
+
+.sub {
     color: #ffff;
     font-weight: 700;
     font-size: 25px;
     text-decoration: underline;
 }
-.content{
+
+.content {
     color: #ffff;
 }
-main div span a:hover{
+
+main div span a:hover {
     background-color: #292929;
 }
-.Torrents a:hover{
+
+.Torrents a:hover {
     background-color: #292929;
 }
