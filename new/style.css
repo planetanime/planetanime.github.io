@@ -34,17 +34,25 @@ header {
     margin: 10px;
     width: 95%;
     border-radius: 25px;
+    transition: padding 0.2s ease;
+}
+
+header:hover{
+    padding: 25px;
+    transition: padding 0.2s ease;
 }
 
 header span {
     font-family: JetbrainsMono Nerd Font;
     color: white;
     font-weight: 200;
+    transition: color 0.2s ease;
 }
 
 header span:hover {
     color: pink;
     font-weight: bold;
+    transition: color 0.2s ease;
 }
 
 footer {
@@ -63,10 +71,12 @@ footer {
 
 .discord a {
     color: white;
+    transition: color 0.2s ease;
 }
 
 .discord a:hover {
     color: pink;
+    transition: color 0.2s ease;
 }
 
 a {
@@ -82,6 +92,7 @@ main {
     align-content: center;
     align-self: center;
     align-items: center;
+    margin: 10px;
 }
 
 .main {
@@ -98,9 +109,10 @@ main {
     align-items: center;
     gap: 10px;
     padding: 25px;
+    transition: padding 0.2s ease;
 }
 
-.Partners {
+.thingy {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -124,6 +136,7 @@ footer p {
 .sub:hover {
     background-color: #462c52;
     color: pink;
+    transition: color 0.2s ease;
 }
 
 .content a {
@@ -135,4 +148,9 @@ footer p {
     display: flex;
     flex-direction: column;
     gap: 5px;
+}
+
+main .info:hover {
+    padding: 80px;
+    transition: padding 0.2s ease;
 }
