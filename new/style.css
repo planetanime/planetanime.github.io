@@ -160,6 +160,6 @@ footer .content a {
 }
 
 main .info:hover {
-    padding: 80px;
+    padding: 40px;
     transition: padding 0.2s ease;
 }
